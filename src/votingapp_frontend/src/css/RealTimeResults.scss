@@ -1,0 +1,25 @@
+.real-time-results {
+    text-align: center;
+    .chart-container {
+      width: 60%;
+      margin: 20px auto;
+    }
+    .login-options {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      .btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+          background-color: #2980b9;
+        }
+      }
+    }
+  }
+  

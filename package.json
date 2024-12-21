@@ -14,5 +14,10 @@
   "type": "module",
   "workspaces": [
     "src/votingapp_frontend"
-  ]
+  ],
+  "dependencies": {
+    "@dfinity/auth-client": "^2.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-router-dom": "^7.1.0"
+  }
 }
